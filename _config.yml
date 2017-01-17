@@ -1,11 +1,11 @@
 
-title: Karna
-desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+title: Experiences
+desctiption: This is a blog about Life.
 url: http://webjeda.com/
 permalink: ':title/'
 
 markdown: kramdown
-baseurl: "/karna"
+baseurl: "/"
 
 
 sass:
@@ -31,13 +31,14 @@ highlight: rouge
 analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
-
+disqus-shortname: deepblocks
 # Contact form
 # Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
 api-token:   
 
 include: [_pages]
-version: 0.8
 
 gems: [jekyll-paginate, jekyll-seo-tag]
+
+
+
