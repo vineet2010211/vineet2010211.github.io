@@ -14,8 +14,8 @@ layout: compress
 
 <!-- Use any element to open the sidenav -->
 <span id="slid" onclick="openNav()"><i class="fa fa-align-left" aria-hidden="true"></i></span>
-<a href="{{site.baseurl}}/"><h1 class="header-title">{{site.title}}<i class="fa fa-sun-o" aria-hidden="true"></i> </h1></a>
-<h2 class="header-tagline">Son of the Sun</h2>
+<a href="{{site.baseurl}}/"><h1 class="header-title">{{site.title}}<span class="c-aqua font-nitti tracked-terminal typewrite lh-solid dib-m" data-period="2000" data-type="[ &quot;currencies&quot;, &quot;securities&quot;, &quot;deposits&quot;, &quot;bonds&quot; ]"></span></a>
+<h2 class="header-tagline">Because Life Should Be Always Open Source</h2>
 </header>
 <div id="main">
 
@@ -33,9 +33,11 @@ layout: compress
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
+
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";    
 }
+
 </script>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 {% include analytics.html %}
